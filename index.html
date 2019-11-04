@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang='eng'>
+		<html>
+	<head>
+		<meta charset='UTF-8'/>
+		<title> China-Guilin</title>
+
+		<style>
+/* Making the scrolling smooth */
+			html {
+				scroll-behavior: smooth;
+			}
+			
+/* Headings and body stylings */
+			body{
+				font-size: 100%;
+				margin: 0px;
+				font-family: "Trebuchet MS", Helvetica, sans-serif;
+			}
+			
+			h2{
+				font-size: 2em;
+				color:rgb(80,80,80);
+				line-height: 1.5em;
+				letter-spacing: 0.05em;
+				}
+			
+			h3{
+				color:rgb(80,80,80);
+				line-height: 1.5em;
+				letter-spacing: 0.05em;
+				}
+			
+			p {
+				line-height: 1.5em;
+				letter-spacing: 0.05em;
+				}
+			
+/* The box outline for text in the navigation bar */
+			ul {
+				/* position: fixed; */
+				border: none;
+  				list-style-type: none;
+  				margin: 0;
+				padding: 0;
+  				background-color: rgb(0,0,0);
+				width: 100%;
+				overflow: hidden;
+				}
+			
+			ul li{
+				display: inline-block;
+				position: relative;
+					}
+			
+			ul li a{
+				display: inline-block;
+					}
+
+/* Colour and styling of the navigation bar */
+			li {
+				float: left;
+				}
+
+			li a {
+  				display: block;
+  				color: rgb(250,250,250);
+  				text-align: left;
+  				padding: 20px 30px;
+  				text-decoration: none;
+				}	
+			
+/* Positioning of the image */
+			.img-main {
+				max-width: 100%;
+				display: block;
+				padding-bottom: 2em;
+							} 
+			
+			
+/* Gives the image a black border */
+			.img-responsive {	
+				max-width: 100%;
+				display: block;
+				border: 3px solid rgb(0,0,0);
+							} 
+			
+/* Creates a box for all the information to stay in */
+			.mainbox {
+				max-width: 1200px;
+				margin: auto;
+				overflow: hidden;
+				border: 2px solid blue;
+					}
+			
+/* Tables for information and images so it makes the layout look nice and simple */
+			.columns {
+				box-sizing: border-box;
+				width: 50%;
+				float: left;
+				border: 0px solid green;
+				padding: 1.5% 3%;
+					}
+			
+/* Styles of a footer */
+			.footer{
+				border: none;
+  				list-style-type: none;
+  				margin: 0;
+				padding: 0;
+  				background-color: rgb(0,0,0);
+				width: 100%;
+				overflow: hidden;
+				color: rgb(250,250,250);
+					}
+			
+/* Dropdown features - Hover (turns into a different colour), Drop down menu, placing of the drop down menu, etc */
+			.dropdown {
+  				//*position: relative;
+  				display: inline-block;*//
+ 				float: left;
+  				overflow: hidden;
+						}
+			
+			.dropdown-content {
+				display: none;
+				top: 60px;
+  				position: absolute;
+  				background-color: rgb(241, 241, 241);
+  				min-width: 160px;
+				overflow: auto;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+								}
+			
+			.dropdown-content a {
+				float: none;
+				color: rgb(0,0,0);
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+								}
+
+			.dropdown:hover .dropdown-content {
+				display: block;
+												}
+			
+			.dropdown-content a:hover {
+				background-color: rgb(221, 221, 221);
+									}
+			
+			</style>
+	</head>
+<!-- Symbols and icons (website) -->
+		<script src="https://kit.fontawesome.com/f54ef005ac.js" crossorigin="anonymous"></script>
+	
+		<body>
+<!-- Navigation bar with tags that are clickable -->
+			<ul><li><a href="#home"><i class="fas fa-home fa-lg"></i></a></li>
+			<li><a href="#about"> About </a></li>
+			<li><a href="#map"> Map </a></li>
+				
+<!-- Dropdown menu -->
+			<div class="dropdown">
+			<li><a href="#journey"><span> Journey </span><i class="fas fa-caret-down"></i></a></li>
+ 			<div class="dropdown-content">
+    		<a href="#hills">Hills</a>
+			<a href="#river">Li Jiang River</a>
+			<a href="#park">Riyue Shuangta Cultural Park</a>	
+			<a href="#forest">Guihai Stele Forest</a>	
+				</div>
+			</div>
+			</ul>
+			
+<!-- Background Image -->
+<!-- When the "Home" button is clicked from the navigation bar it would lead them to this part of the page -->
+		<img id="home" class="img-main" src="Images/background_ps.JPEG" alt="Li Jiang River taken on the boat">
+			
+<!-- When the "About" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="about">
+			<br>
+			<hr>
+		
+<!-- Information about the city - placed in columns so the information and picture would look tidy and neat --> 
+		<div class="mainbox">
+		<div class="columns">
+		<img class="img-responsive" src="Images/About.jpg" alt="Pictures of Moutains on Li Jiang River">
+			</div>
+			
+		<div class="columns">
+		<h2><center>A bit about the city</center></h2>	 
+		<h3>Guilin is located in the northeastern part of Guangxi. It has been named the most picturesque place in China.</h3>
+			<p> It is a great place for sightseeing at any time of the year with its pleasant subtropical climate. In autumn, when the sweet osmanthus is in bloom, the air of Guilin city is filled with a sweet fragrant smell. The name of Guilin, means “forest of sweet osmanthus”.</p>
+			</div>
+			</div>
+
+<!-- When the "Journey" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="journey">
+			<br>
+			<br>
+			<hr>
+			
+<!-- Information about how the trip had started and also placed in columns so the inforamtion and picture would look tidy and neat --> 
+		<div class="mainbox">
+		<div class="columns">
+		<h2><center>How it all started</center></h2>	 
+		<p>I met all of my friends on this “Chinese Full-Immersion Summer Camp” which starts in late December and finishes in early January at a chosen city. Each year, parents of the child around 10-18 years old would apply for a space. When the child gets in, parents would normally be contacted for an interview. After the interview, there would be a series of teachers who pick out around 15 children.</p>
+		<p>I’ve been to Summer Camp twice and each year it’s always different. Last year, I went to Guilin and we stayed in the university dorms (Guangxi Normal University). It was 15 days of intensive studying (full chinese), visiting around the city, lectures, dancing and understanding our chinese roots. We represented Wellington and there were other groups around the world like Auckland, Melbourne, Indonesia and Malaysia. By the time, the 15 days were over everyone has made friends with each other. In fact until now, I still talk to my friends from Melbourne.</p>
+			</div>
+		<div class="columns">
+		<img class="img-responsive" src="Images/Friends.JPEG" alt="Picture of my friends looking at rocks">
+			</div>
+			</div>
+			
+<!-- When the "Hills" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="hills">
+			<br>
+			<hr>
+			
+<!-- Information about the Crane peak and also placed in columns so the inforamtion and picture would look tidy and neat --> 
+		<div class="mainbox">
+		<div class="columns">
+		<img class="img-responsive" src="Images/DecalHill1.JPEG" alt="A view on the top of Crane Peak">
+		<p><center>Crane Peak</center></p>
+			</div>
+		<div class="columns">
+		<h2><center>Hills</center></h2>
+		<h3><center><u>Diecai Hill</u></center></h3>
+		<p>The hill is located in the northeast of Guilin by the Li River. Diecai Hill (Brocade Hill) is one of the most popular local attractions. It is a place known for its amazing scenery and stone carvings. There is a wind cave on the hill and also four small hills (Yuyue Hill, Siwang Hill, Crane Peak and Bright Moon Peak).</p>
+			</div>
+			</div>
+			
+<!-- Information about the hill and also placed in columns so the inforamtion and picture would look tidy and neat --> 
+		<div class="mainbox">
+		<div class="columns">
+		<h3><center><u>Elephant Trunk Hill</u></center></h3>
+		<p>The Elephant Trunk Hill is famous for the size of the parabolic arch which is along the Li River. It is one of the 1,000s of karst hills that cover Guangxi Province. Normally karst hills are made of limestone that are weathered into shapes that represent animals or objects. The Water Moon Cave, which is located between the trunk and the body, is a semi-round cave that is submerged into the water. It resembles a round full moon and the unique scene of the reflection of the moon inverted in the water and the cave above the water forms a full moon makes the Water Moon Cave special and attractive.</p>
+			<br>
+		<p>The photo resembles an elephant drinking water from the Li River with its long trunk.</p>
+			</div>
+		<div class="columns">
+		<img class="img-responsive" src="Images/Elephant_hill.JPEG" alt="Hill shaped like an Elephant">
+			</div>
+			</div>
+		
+	<br id="river">
+			<br>
+			<hr>
+			
+		<div class="mainbox">
+		<div class="columns">
+		<img class="img-responsive" src="Images/River.JPEG" alt="Li Jiang River taken on the boat">
+			</div>
+		<div class="columns">
+		<h3><center><u>Li Jiang River</u></center></h3>
+		<h3>A boat cruising on the beautiful Li River is the highlight of your travel to Guilin.</h3>
+		<p>There’s a boat ride from Guilin to Yangshuo. The boat ride goes past mountains with different unique shapes which have inspired and fired the imagination of each visitor coming to Guilin. The length of the river is around 83km from Guilin to Yangshou.</p>
+			</div>
+			</div>
+			
+<!-- When the "Park" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="park">
+			<br>
+			<hr>
+			
+<!-- Information about the park and also placed in columns so the inforamtion and picture would look tidy and neat -->
+		<div class="mainbox">
+		<div class="columns">
+		<h3><center><u>Riyue Shuangta Cultural Park</u></center></h3>
+		<h3>The Riyue Shuangta Cultural Park (Sun and Moon Pagodas) in Guilin is located at the heart of the City of Guilin.</h3>
+		<p>The sun (Yellowish one) Pagoda is 41 meters tall while the moon (Greyish one) pagoda is 35 tall. The sun and moon pagodas were rebuilt in Rough Lake in 2001 on the basis of the paragons in the Tang Dynasty.</p>
+			<br>
+		<p>The right Pagoda is the Sun and the left Pagoda is the Moon.</p>
+			<br>
+			</div>
+		<div class="columns">
+		<img class="img-responsive" src="Images/Riyue_Shuangta.JPEG" alt="Two different Pagoda">
+
+			</div>
+			</div>
+			
+<!-- When the "Forest" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="forest">
+			<br>
+			<hr>
+			
+		<div class="mainbox">
+		<div class="columns">
+		<img class="img-responsive" src="Images/Old-Stone.JPEG" alt="Rock Inscription">
+			</div>
+		<div class="columns">
+		<h3><center><u>Guihai Stele Forest</u></center></h3>
+		<h3>The Museum of Guihai Stele Forest is located near the center of Guilin City.</h3>
+		<p>The museum displays and preserves over 110 ancient rock inscriptions and carved stone tables, which were found in the Guilin region.</p>
+			<br>
+		<p>The right Pagoda is the Sun and the left Pagoda is the Moon.</p>
+			</div>
+			</div>
+			
+<!-- When the "Map" button is clicked from the navigation bar it would lead them to this part of the page -->
+	<br id="map">
+			<br>
+			<hr>
+			
+<!-- Map with points with where i went and stayed -->
+		<h3><center>Map</center></h3>
+		<center><iframe	src="https://www.google.com/maps/d/u/0/embed?mid=15j3kU4CrRWtXBJ2tiIQ6HSYT1-PygF33" width="1250" height="570"></iframe></center>
+	
+<!-- Footer -->
+		<div class="footer">
+		<p><center>© Rebecca Cho</center></p>
+		</div>
+			
+		</body>
+	</head>
+		</html>
+
+
+			
